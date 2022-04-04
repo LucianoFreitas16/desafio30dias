@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    background-image: url(https://www.flaresenha.com/wp-content/uploads/2019/04/flamengo-aumenta-o-valor-dos-planos-de-socio-torcedor-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+   
+
+}
+.main-login{
+    width: 100vw;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    
+}
+.esquerda-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.esquerda-login > h1{
+    color: rgb(255, 245, 245);
+}
+
+.direita-login
+{   
+    
+    width: 50vh;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.cartao-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 35px 35px;
+    background-image: url();
+    box-shadow: 10px 40px 90px black;
+    height: 50%;
+    border-radius: 1px;
+ 
+}
+.cartao-login> h1 {
+    color: white;
+
+    font-weight: 50;
+}
+.cartao-login>h2{
+    color: rgb(255, 255, 255);
+    font-size: 15px;  
+
+}
+.texto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px;
+    font-weight: 50;
+}
+.texto> input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(20, 2, 2);
+    color: rgb(250, 246, 246);
+    font-size: 12pt;
+   box-sizing: border-box;
+    outline: none;
+    font-weight: 50;
+}
+.texto> label{
+    color: white;
+    margin-bottom: 10px;
+    font-weight: 50;
+    
+}
+.texto> input::placeholder{
+    color: white;
+    font-weight: 50;
+ }
+.button{
+    width: 45%;
+    padding: 10px 0px;
+    margin: 20px;
+    border-radius: 5px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-weight: 50;
+  background-color: black;  
+  color: aliceblue;
+}
+
+.imagemfla{
+    width: 50vw;
+    height: 50vh;
+    
+
+}
+@media screen and (max-width: 900px){
+ .main-login{
+     flex-direction: column;
+     
+ }
+ .esquerda-login> h1{
+     display: none;
+
+ }
+ .esquerda-login{
+     width: 100%;
+     height: auto;
+     display: none;
+  
+     font-weight: 50;
+ }
+ .direita-login{
+     width: 100%;
+     height: auto;
+     font-weight: 50;
+ }
+ .esquerda-login>.imagemfla{
+     max-width: 30vh;
+ }
+}
+.esquerda-login>h1{
+    font-family: 'Bungee Inline', cursive;
+    font-size:25px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
